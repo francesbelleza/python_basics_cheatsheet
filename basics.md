@@ -1,5 +1,13 @@
 # Python Basics Cheatsheet
 
+## High level thoughts
+- print statements show infor
+- variables store values
+- if statements control flow of program
+- for & while loops allow for repetitive actions
+- functions are for when you want to reuse code
+- recursion calls itself back
+
 ## Strings
 
 ```python
