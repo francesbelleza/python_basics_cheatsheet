@@ -9,20 +9,29 @@
 last = "belleza"
 full = f"{first} {last}"`
 
-# len() is a function
-# .find(), .title(), .upper(), etc. are string methods'
+`# len() is a function
+`# .find(), .title(), .upper(), etc. are string methods'
 
 `print(first[0:2])      # "fr" -> index 0 up to (but not including) 2
+
 print(first[-1])       # "s" -> last character
+
 print(first[:3])       # "fra" -> start to index 3
+
 print(last[2:])        # "lleza" -> index 2 to end
 
 print(full.title())    # "Frances Belleza" -> capitalize each word
+
 print(full.upper())    # uppercase all letters
+
 print(full.lower())    # lowercase all letters
+
 print(full.replace("a", "v"))   # replace all "a" with "v"
+
 print(full.find("e"))  # index of first "e"
+
 print("fran" in first)         # True -> checks if substring exists
+
 print("fran" not in full)      # False -> checks if substring does not exist`
 
 
